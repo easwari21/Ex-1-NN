@@ -80,28 +80,28 @@ print(len(X_test))
 ## OUTPUT:
 
 ## Dataset
-![image](image/data.png)
+![image](i/dataset.png)
 
 ## X Values
-![image](x.png)
+![image](i/x.png)
 
 ## Y Values
-![image](y.png)
+![image](i/y.png)
 
 ## Null Values
-![image](null.png)
+![image](i/null.png)
 
 ## Duplicated Values
-![image](dupli.png)
+![image]i/(dupli.png)
 
 ## Description
-![image](des.png)
+![image](i/des.png)
 
 ## Training Data
-![image](train.png)
+![image](i/train.png)
 
 ## Testing Data
-![image](test.png)
+![image](i/test.png)
 
 
 ## RESULT:
