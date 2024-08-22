@@ -92,7 +92,7 @@ print(len(X_test))
 ![image](i/null.png)
 
 ## Duplicated Values
-![image]i/(dupli.png)
+![image](i/dupli.png)
 
 ## Description
 ![image](i/des.png)
