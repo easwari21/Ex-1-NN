@@ -80,7 +80,7 @@ print(len(X_test))
 ## OUTPUT:
 
 ## Dataset
-![image](data.png)
+![image](image/data.png)
 
 ## X Values
 ![image](x.png)
