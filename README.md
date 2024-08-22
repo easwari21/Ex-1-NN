@@ -1,7 +1,7 @@
-<H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+<H3>Name:Easwari M</H3>
+<H3>Reg.No:212223240033</H3>
 <H3>EX. NO.1</H3>
-<H3>DATE</H3>
+<H3>22.08.2024</H3>
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
 
 ## AIM:
@@ -9,6 +9,7 @@
 To perform Data preprocessing in a data set downloaded from Kaggle
 
 ## EQUIPMENTS REQUIRED:
+
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Google Colab /Jupiter Notebook
 
@@ -29,19 +30,78 @@ Another aspect is that the data set should be formatted in such a way that more 
 
 
 ## ALGORITHM:
-STEP 1:Importing the libraries<BR>
-STEP 2:Importing the dataset<BR>
-STEP 3:Taking care of missing data<BR>
-STEP 4:Encoding categorical data<BR>
-STEP 5:Normalizing the data<BR>
-STEP 6:Splitting the data into test and train<BR>
+
+### STEP 1:
+Importing the libraries<BR>
+
+### STEP 2:
+Importing the dataset<BR>
+
+## STEP 3:
+Taking care of missing data<BR>
+
+## STEP 4:
+Encoding categorical data<BR>
+
+## STEP 5:
+Normalizing the data<BR>
+
+## STEP 6:
+Splitting the data into test and train<BR>
 
 ##  PROGRAM:
-TYPE YOUR CODE HERE
-
+```
+import pandas as pd
+import io
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+df = pd.read_csv("Churn_Modelling.csv")
+df
+df.head(6)
+X=df.iloc[:,:-1].values
+X
+y=df.iloc[:,-1].values
+y
+df.isnull()
+df.isnull().sum()
+df.duplicated()
+df.describe()
+df = df.drop(['Surname', 'Geography','Gender'], axis=1)
+df.head()
+scaler=MinMaxScaler()
+X_train ,X_test ,y_train,y_test=train_test_split(X,y,test_size=0.2)
+X_train
+X_test
+print(len(X_train))
+print(len(X_test))
+```
 
 ## OUTPUT:
-SHOW YOUR OUTPUT HERE
+
+## Dataset
+![image](data.png)
+
+## X Values
+![image](x.png)
+
+## Y Values
+![image](y.png)
+
+## Null Values
+![image](null.png)
+
+## Duplicated Values
+![image](dupli.png)
+
+## Description
+![image](des.png)
+
+## Training Data
+![image](train.png)
+
+## Testing Data
+![image](test.png)
 
 
 ## RESULT:
