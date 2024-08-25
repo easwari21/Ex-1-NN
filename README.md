@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/aa5920d1-d667-402e-b170-95218c7dca61)<H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
+<H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
 
 <H3>Name:Easwari M</H3>
 
