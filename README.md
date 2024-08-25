@@ -1,4 +1,4 @@
-<H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
+![image](https://github.com/user-attachments/assets/aa5920d1-d667-402e-b170-95218c7dca61)<H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
 
 <H3>Name:Easwari M</H3>
 
@@ -75,6 +75,8 @@ df.describe()
 df = df.drop(['Surname', 'Geography','Gender'], axis=1)
 df.head()
 scaler=MinMaxScaler()
+df1=pd.DataFrame(scaler.fit_transform(df))
+print(df1)
 X_train ,X_test ,y_train,y_test=train_test_split(X,y,test_size=0.2)
 X_train
 X_test
