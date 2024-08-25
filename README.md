@@ -97,6 +97,9 @@ print(len(X_test))
 ## Description
 ![image](i/des.png)
 
+## Normalized data
+![image](i/nor.png)
+
 ## Training Data
 ![image](i/train.png)
 
@@ -108,3 +111,4 @@ print(len(X_test))
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
 
 
+I couldnt attend this week's session due to health issues.So I couldnt submit assignment on time.But I have already completed my assignment sir,where and when can I submit the assignment sir?
